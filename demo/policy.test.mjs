@@ -1,0 +1,12 @@
+import assert from 'node:assert/strict';
+import { probabilities, sample } from './policy.mjs';
+assert.deepEqual(probabilities([1,2,4],'epsilon',0),[0,0,1]);
+assert.deepEqual(probabilities([1,2,4],'epsilon',1),[1/3,1/3,1/3]);
+assert.deepEqual(probabilities([3,3,3],'softmax',1),[1/3,1/3,1/3]);
+const p=probabilities([10000,10001,10002],'softmax',.1);
+assert(p.every(Number.isFinite));assert(Math.abs(p.reduce((a,b)=>a+b)-1)<1e-12);assert(p[2]>.9999);
+const a=probabilities([1,2,3],'softmax',2),b=probabilities([1001,1002,1003],'softmax',2);
+assert.deepEqual(a,b);
+assert.equal(sample([.1,.3,.6],0),0);assert.equal(sample([.1,.3,.6],.2),1);assert.equal(sample([.1,.3,.6],.999),2);
+assert.throws(()=>probabilities([NaN,1],'softmax',1));assert.throws(()=>probabilities([1,2],'softmax',0));assert.throws(()=>probabilities([1,2],'epsilon',2));
+console.log('Exploration policy invariants, numerical stability, sampling boundaries and invalid-input checks passed.');

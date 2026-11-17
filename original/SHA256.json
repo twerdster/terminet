@@ -1,0 +1,11 @@
+{
+  "README.md": "5204fe8867b5147d3b1229950c03911b1f877c4f074a83f80d9ed8a2b0d82eb6",
+  "main.py": "c1eec5633ede87095bd159b0212abfd21fe0dcf6d5f1a9065b69d52f8e7a18de",
+  "next_state_prediction.py": "51b487de730f0b3705d3124f0228acbf0061ad64b14bf909523c79262b6aa04c",
+  "configs/health_gathering.cfg": "5c7d1482fc7179d116e4e321307593bcac49cb06aad0b0c4d975e197c43b37ba",
+  "configs/defend_the_center.cfg": "38c820d707052340b0cf36ba7753bd4bf9fbe63d02afaea24eec8d0aa641bb8e",
+  "configs/deathmatch.cfg": "a77bb15585af60860fb74f467cdf0d62bd1a284893725ecbfc2e5b41c6461591",
+  "configs/basic.cfg": "6c4e6da4cc9f62f8efd6164283d4ee24c7c5fba8e1c7cf4995457afc390ae182",
+  "assets/basic_ddqn_avg_return.png": "199c4aa0672985d1402e668411417664147381bc71615df4feadea2b20ea87d7",
+  "assets/health_exploration_return.png": "8c56ed93b6b85a933d77bf6c7eae1421cd7300fe46090bb0afcaae2793b27bd5"
+}
