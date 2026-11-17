@@ -37,6 +37,6 @@ $('repeat').addEventListener('click',()=>{
 $('reset').addEventListener('click',()=>{values=[1,2,4];$('scenario').value='health';names=sets.health;$('policy').value='softmax';Object.assign($('parameter'),{min:'.1',max:'5',step:'.1',value:'1'});$('parameter-label').textContent='Temperature';controls()});
 $('clip').addEventListener('change',()=>{
   $('video').pause();$('video').src=`media/${$('clip').value}.mp4`;$('video').load();
-  $('clip-caption').textContent=($('clip').value==='navigation'?'Navigation and health collection':'Turn and shoot')+' · original 2016 recording, converted from OGV.';
+  $('clip-caption').textContent=($('clip').value==='clip-1'?'Original clip 1 · from upstream assets/dqn-doom-1.ogv':'Original clip 2 · from upstream assets/dqn-doom-2.ogv')+'; converted to MP4.';
 });
 controls();

@@ -18,8 +18,8 @@ The upstream snapshot does not supply a software license. Public availability is
 
 The `demo/` policy calculations and interface are new 2026 work by Aaron Wetzler with agent assistance. They are separate from `original/` and are not represented as Itai’s original implementation. The two browser MP4s are format conversions of the unchanged upstream OGV recordings:
 
-- `assets/dqn-doom-1.ogv` → `demo/media/navigation.mp4`
-- `assets/dqn-doom-2.ogv` → `demo/media/turn-and-shoot.mp4`
+- `assets/dqn-doom-1.ogv` → `demo/media/clip-1.mp4`
+- `assets/dqn-doom-2.ogv` → `demo/media/clip-2.mp4`
 
 No new training or neural-network inference was performed. The report’s result that learned macro-actions did not improve over standard DQN is retained; the archive does not turn the abstract’s research motivation into a claim of success.
 
