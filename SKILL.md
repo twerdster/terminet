@@ -8,6 +8,8 @@ Before every commit review and synchronize SUMMARY.md and SKILL.md, keeping path
 
 A real tools-disabled Claude editorial review on 2026-11-17 informed narrower platform wording, explicit original-source subset/hashes, converted-playback wording and source-license qualifications. Suggestions about algorithm names were checked directly against the original code and report.
 
-Original subset hashes verified for nine files. New-policy invariant checks and desktop Chrome interactions passed at 1100/390px; no model inference, training or physical-device test performed.
+Original subset hashes verified for fifteen files. New-policy invariant checks and desktop Chrome interactions passed at 1100/390px; no model inference, training or physical-device test performed.
 
 The browser identifies historical clips by upstream filename, without inferring which scenario each unnamed OGV contains.
+
+The original README’s eight local figure references are included unchanged, so its relative figure links resolve. Fifteen files are now covered by original/SHA256.json; original source/configuration file count remains six. Inherited whitespace in original files is retained deliberately; new-file whitespace checks exclude original/.

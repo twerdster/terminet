@@ -10,7 +10,7 @@ Source: https://github.com/itaicaspi/keras-dqn-doom
 
 Pinned revision: `4241a994a49a39b88bfe5261b37d5abe6e0459a4` (16 October 2016).
 
-`original/` contains the unchanged upstream README, `main.py`, `next_state_prediction.py`, four scenario configurations and two original result plots. `original/SHA256.json` records their SHA-256 hashes. The remaining upstream files, including six checkpoints, stay available at the pinned link. The private submission archive and documents are retained privately for recovery; they are not uploaded here.
+`original/` contains the unchanged upstream README, `main.py`, `next_state_prediction.py`, four scenario configurations and eight referenced original figures. `original/SHA256.json` records their SHA-256 hashes. The remaining upstream files, including six checkpoints, stay available at the pinned link. The private submission archive and documents are retained privately for recovery; they are not uploaded here.
 
 The upstream snapshot does not supply a software license. Public availability is not treated as a grant of unrestricted reuse, and no new license is imposed on Itai’s files or recordings. Author permission and any preferred credit/profile corrections are being requested. Doom/ViZDoom imagery retains the rights of its respective owners.
 

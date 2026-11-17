@@ -7,5 +7,11 @@
   "configs/deathmatch.cfg": "a77bb15585af60860fb74f467cdf0d62bd1a284893725ecbfc2e5b41c6461591",
   "configs/basic.cfg": "6c4e6da4cc9f62f8efd6164283d4ee24c7c5fba8e1c7cf4995457afc390ae182",
   "assets/basic_ddqn_avg_return.png": "199c4aa0672985d1402e668411417664147381bc71615df4feadea2b20ea87d7",
-  "assets/health_exploration_return.png": "8c56ed93b6b85a933d77bf6c7eae1421cd7300fe46090bb0afcaae2793b27bd5"
+  "assets/health_exploration_return.png": "8c56ed93b6b85a933d77bf6c7eae1421cd7300fe46090bb0afcaae2793b27bd5",
+  "assets/state1_actual.jpg": "2f9d444d93fbf24a74484b083699a24328ad92eb9f180d5abe83ef204075ec98",
+  "assets/state1_predicted.jpg": "1ea857a321b795db0ca6858c12ee00ac115c0d22c96d14a1bbabdd8164375ffd",
+  "assets/state2_actual.jpg": "a1a0d1dabb37d8f51a70ac75cabded57cf8ad5bddcd525138bcc339c3a523408",
+  "assets/state2_predicted.jpg": "eb3a0668b87edbd7417bb0fdf926522813e5133adeef7f88bc5d730dcaaca1f7",
+  "assets/basic_dqn_avg_return.png": "16b4118a443f65c846335a1b217fb9764526cab5e50acd2ef07e1957ad608845",
+  "assets/health_gathering_ddqn_avg_return.png": "ca8c7ab47f968c5b5fd51beb796c1778d3c8ca357e84166369718d97fa2b40f9"
 }
