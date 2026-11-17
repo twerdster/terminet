@@ -15,3 +15,5 @@ Original subset hashes verified for fifteen files. New-policy invariant checks a
 The browser identifies historical clips by upstream filename, without inferring which scenario each unnamed OGV contains.
 
 The original README’s eight local figure references are included unchanged, so its relative figure links resolve. Fifteen files are now covered by original/SHA256.json; original source/configuration file count remains six. Inherited whitespace in original files is retained deliberately; new-file whitespace checks exclude original/.
+
+Final actual Claude follow-up confirmed the narrowed README and provenance. The six upstream checkpoints and all 26 student-project entries were independently checked. Local and deployed Chrome policy/playback flows passed; other media-server/browser combinations remain unverified.

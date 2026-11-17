@@ -8,7 +8,7 @@ The original Python code implements DQN variants, exploration policies and recur
 
 **[Open the browser demo](https://twerdster.github.io/terminet/)** — watch original recordings (converted from OGV to MP4), switch action sets, and adjust example Q values to explore softmax and ε-greedy action selection. The policy lab is new educational code; it does not load the checkpoints, run Doom or train a model.
 
-Open the hosted demo in a browser. To serve a checkout with Python 3 installed, use `python3 -m http.server 8000 --directory demo` and open `http://localhost:8000`.
+To serve a checkout locally with Python 3, use `python3 -m http.server 8000 --directory demo` and open `http://localhost:8000`.
 
 ## Original work and current scope
 
